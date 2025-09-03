@@ -1,12 +1,11 @@
-import LoginForm from "../../components/LoginForm/LoginForm.jsx";
+import DocumentTitle from '../../components/DocumentTitle';
+import { LoginForm } from '../../components/LoginForm/LoginForm';
 
-const LoginPage = () => {
+export default function LoginPage() {
     return (
         <div>
-            <h1>Login</h1>
+            <DocumentTitle>Login</DocumentTitle>
             <LoginForm />
         </div>
     );
-};
-
-export default LoginPage;
+}

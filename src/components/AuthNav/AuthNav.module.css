@@ -1,0 +1,19 @@
+.link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 600;
+    color: #1e2a2f;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.link:hover {
+    background-color: #e8e8e8;
+    color: #1a1a1a;
+}
+
+.link.active {
+    color: #e84a5f;
+    border-bottom: 2px solid #e84a5f;
+}
